@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D3D3D3;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    background-color: #632df8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+.card {
+    /* padding: 0 20px 20px 20px; */
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #632df8;
+    max-width: 400px;
+}
+
+.clock {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
